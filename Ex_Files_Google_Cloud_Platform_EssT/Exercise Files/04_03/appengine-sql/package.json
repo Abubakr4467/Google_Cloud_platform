@@ -1,0 +1,19 @@
+{
+  "name": "appengine-sql",
+  "description": "App Engine Demo for connecting to Cloud SQL",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "author": "Albert Padin",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {}
+}

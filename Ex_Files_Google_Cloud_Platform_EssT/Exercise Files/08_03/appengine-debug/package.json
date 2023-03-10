@@ -1,0 +1,19 @@
+{
+  "name": "appengine-debug",
+  "description": "App Engine demo for Debug",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "author": "Albert Padin",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@google-cloud/debug-agent": "^5.1.2",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,20 @@
+{
+  "name": "appengine-sql-proxy",
+  "description": "App Engine Demo for Cloud SQL Proxy",
+  "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "author": "Albert Padin",
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.16.3",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {}
+}
